@@ -6,4 +6,4 @@ Library          AppiumLibrary
  
 *** Keywords ***
 Start app
-    Open Application  ${appium-url}  platformName=Android  deviceName=${device-name}  fullReset=${reset}  app=${app-path}  language=${language}   platformVersion=${android-version}
+    Open Application  ${appium-url}  platformName=Android  deviceName=${device-name}  appPackage=${android-app-package}  appMainActivity=${android-app-activity}  fullReset=${reset}  app=${app-path}  language=${language}   platformVersion=${android-version}
